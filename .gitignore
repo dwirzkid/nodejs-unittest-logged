@@ -1,6 +1,8 @@
 # Dependency directories
-node_modules/*
-
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
 
 # dotenv environment variable files
 .env
