@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-unit-test",
+  "name": "nodejs-logging",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -23,7 +23,7 @@
     },
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
-      "!vendor/**/*.{js,jsx}"      
+      "!vendor/**/*.{js,jsx}"
     ]
   },
   "author": "",
@@ -34,5 +34,9 @@
     "@babel/preset-env": "^7.25.4",
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "winston": "^3.15.0",
+    "winston-daily-rotate-file": "^5.0.0"
   }
 }
